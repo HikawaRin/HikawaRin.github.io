@@ -16,7 +16,7 @@ Since red black tree is also a BST, so some tricky operation I introduction in
 ### Why we need balanced tree  
 \ \ Binary Search Tree is good, but BST may degenerate to a linked list while handling some kinds of input, 
 in this case the time complex of BST operation would increase to $O(N)$.  
-Let\`s say, we insert array ```[1, 9, 2, 8, 3, 7, 4, 6, 5]``` to BST, 
+Let\`s say, we insert array ```[1, 10, 2, 9, 3, 8, 4, 7, 5, 6]``` to BST, 
 after insertion the BST would look like below:  
 ![zig-zag-bst](/images/Red_Black_Tree/bst_zig.svg)
 BST also badly handle sequence or reverse input data, which is not a rare scenario.  
