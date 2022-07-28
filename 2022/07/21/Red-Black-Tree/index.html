@@ -40,7 +40,7 @@
 <meta property="og:image" content="http://hikawarin.github.io/images/Red_Black_Tree/fix_delete_2.png">
 <meta property="og:image" content="http://hikawarin.github.io/images/Red_Black_Tree/delete_demo.png">
 <meta property="article:published_time" content="2022-07-21T23:11:36.000Z">
-<meta property="article:modified_time" content="2022-07-23T07:22:42.390Z">
+<meta property="article:modified_time" content="2022-07-28T07:18:13.276Z">
 <meta property="article:author" content="Hikawa Rin">
 <meta property="article:tag" content="Data Structure">
 <meta name="twitter:card" content="summary">
@@ -233,7 +233,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-07-23 07:22:42" itemprop="dateModified" datetime="2022-07-23T07:22:42+00:00">2022-07-23</time>
+      <time title="Modified: 2022-07-28 07:18:13" itemprop="dateModified" datetime="2022-07-28T07:18:13+00:00">2022-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -278,7 +278,7 @@
 <h2 id="self-balanced-tree">Self-Balanced Tree</h2>
 <h3 id="why-we-need-balanced-tree">Why we need balanced tree</h3>
 <p>  Binary Search Tree is good, but BST may degenerate to a linked list while handling some kinds of input, in this case the time complex of BST operation would increase to <span class="math inline">\(O(N)\)</span>.<br />
-Let`s say, we insert array <code>[1, 9, 2, 8, 3, 7, 4, 6, 5]</code> to BST, after insertion the BST would look like below:<br />
+Let`s say, we insert array <code>[1, 10, 2, 9, 3, 8, 4, 7, 5, 6]</code> to BST, after insertion the BST would look like below:<br />
 <img src="/images/Red_Black_Tree/bst_zig.svg" alt="zig-zag-bst" /> BST also badly handle sequence or reverse input data, which is not a rare scenario.<br />
   So, to get the best performance we want to get a full tree, whatever our input are. In this case, any node`s left subtree should obtain the same number of node as the right subtree, which is a balanced tree.</p>
 <h3 id="tree">2-3-4 Tree</h3>
